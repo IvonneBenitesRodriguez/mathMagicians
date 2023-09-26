@@ -7,14 +7,14 @@
 
 ### Tech Stack <a name="tech-stack"></a> 
 
-### Client 
 <details>
 <summary>Client</summary>
 <ul>
 <li><a href="https://react.dev/">React</a></li>
 <li><a href="https://github.com/microverseinc/linters-config/tree/master/react-redux">Linters for React & Redux</a></li>
+</ul><br/>
 
-### Key Features <br/>
+## Key Features <br/>
 - ***Set up files and dependencies*** to configure Linters for React📍
 - ***Create a featured branch*** to store all the changes before doing the merge to main branch 📍
 - ***Create a .gitignore file*** to store hidden files 📍
@@ -34,7 +34,7 @@
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+## Prerequisites
 
 📍 In order to run this project you need:
 
@@ -51,7 +51,7 @@ If you have installed it, it will output the version of node.
 
 4) Copy .eslintrc.json to the root directory of your project.
 
-### Setup
+## Setup
 
 Clone this repository to your desired folder:
 
@@ -64,7 +64,7 @@ Clone this repository to your desired folder:
 
    git checkout -b nameofyournewbranch
 
-### Install <br/>
+## Install <br/>
 
 Install this project with: <br/>
 
@@ -81,7 +81,7 @@ c) For ESLint tool, install this command:
 
   npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x  @babel/preset-react@7.x @babel/preset-react@7.x <br/>
 
-### Usage
+## Usage
 To run this project, execute the following command:
 
 
@@ -93,7 +93,7 @@ b) For ESLint tool:
     npx eslint .
 
 
-### Run tests <br/>
+## Run tests <br/>
 
 To run tests, run the following command:
 ```sh
@@ -101,7 +101,7 @@ To run tests, run the following command:
     npx eslint "**/*.{js,jsx}"
 ```
 
-### Deployment <br/>
+## Deployment <br/>
 
 You can deploy this project using:
 
@@ -119,7 +119,7 @@ You can deploy this project using:
 - LinkedIn: LinkedIn
   (back to top)
 
-### 🔭 Future Features <br/>
+## 🔭 Future Features <br/>
  - [] - I will connect an Api.
  - [] - I will give functionality to the refresh button.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>##
