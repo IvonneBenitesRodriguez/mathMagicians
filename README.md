@@ -25,11 +25,6 @@
 - ***Understand how to use Async and Await***📍
 - ***Understand how to use arrow functions***📍
 - ***Understand React set up*** 📍
-(back to top)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -108,9 +103,6 @@ You can deploy this project using:
 
 - Github pages
 - Netlify
- (back to top)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 👩🏽‍💻🌸 **Author**
@@ -118,12 +110,11 @@ You can deploy this project using:
 - GitHub: @IvonneBenitesRodriguez
 - Twitter: @IvonneBenitesR
 - LinkedIn: LinkedIn
-  (back to top)
+ 
 
 ## 🔭 Future Features <br/>
  - [] - I will connect an Api.
  - [] - I will give functionality to the refresh button.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>##
 
 ## 🤝 Contributing <a name="contributing"></a> 
 
@@ -131,20 +122,15 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-⭐️ Show your support 
+## ⭐️ Show your support 
 If you like this project, and consider this information useful to you, you can give me a ⭐️ so I can be highly motivated by your support.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 I would like to thank Microverse for giving me the opportunity to make real my dreams.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
