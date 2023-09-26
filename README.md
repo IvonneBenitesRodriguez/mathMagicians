@@ -1,5 +1,7 @@
-<br/>
-# 📖 mathmagicians<a name="about-project"></a>
+
+***mathmagicians*** <br/>
+
+## 📖 mathmagicians<a name="about-project"></a>
 This project is about a Math Magicians application. We have set-up the tools and environment to develop a React application.
 <br/>
 
@@ -47,6 +49,10 @@ If you have installed it, it will output the version of node.
 
 4) Copy .eslintrc.json to the root directory of your project.
 
+5) Copy .stylelintrc.json to the root directory of your project.
+   
+6) Add a .babelrc file
+
 ## Setup
 
 Clone this repository to your desired folder:
@@ -56,7 +62,7 @@ Clone this repository to your desired folder:
   git clone git@github.com:myaccount/IvonneBenitesRodriguez/mathmagicians.git
 ```
 
-5) Create a featured branch besides main branch :
+7) Create a featured branch besides main branch :
 
    git checkout -b nameofyournewbranch
 
@@ -80,6 +86,12 @@ c) For ESLint tool, install this command:
 
    ``` npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x  @babel/preset-react@7.x @babel/preset-react@7.x ```<br/>
 
+d) To create a react app :
+
+```
+    npx create-react-app my-app
+```
+
 ## Usage
 To run this project, execute the following command:
 
@@ -87,17 +99,18 @@ To run this project, execute the following command:
 a) For StyleLint tool:
 
     npx stylelint "**/*.{css,scss}"
+
 b) For ESLint tool:
 
-    npx eslint .
-
-
+     npx eslint "**/*.{js,jsx}"
+    
 ## Run tests <br/>
 
 To run tests, run the following command:
 ```sh
    npx stylelint "**/*.{css,scss}"
     npx eslint "**/*.{js,jsx}"
+    npm start
 ```
 
 ## Deployment <br/>
