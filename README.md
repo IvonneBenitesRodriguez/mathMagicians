@@ -13,6 +13,7 @@
 <li><a href="https://react.dev/">React</a></li>
 <li><a href="https://github.com/microverseinc/linters-config/tree/master/react-redux">Linters for React & Redux</a></li>
 </ul><br/>
+</details>
 
 ## Key Features <br/>
 - ***Set up files and dependencies*** to configure Linters for React📍
