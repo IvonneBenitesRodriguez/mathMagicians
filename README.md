@@ -1,6 +1,6 @@
-
+<br/>
 # 📖 mathmagicians<a name="about-project"></a>
-**mathmagicians** This project is about a Math Magicians application. We have set-up the tools and environment to develop a React application.
+This project is about a Math Magicians application. We have set-up the tools and environment to develop a React application.
 <br/>
 
 ## 🛠 Built With <a name="built-with"></a> 
@@ -65,17 +65,20 @@ Clone this repository to your desired folder:
 Install this project with: <br/>
 
 a) Enter to your repo's folder:
+
 ```sh
   cd mathmagicians
 ```
 
 b) For StyleLint tool, install this command:
 
+  ```
   npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+  ```
 
 c) For ESLint tool, install this command:
 
-  npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x  @babel/preset-react@7.x @babel/preset-react@7.x <br/>
+   ``` npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x  @babel/preset-react@7.x @babel/preset-react@7.x ```<br/>
 
 ## Usage
 To run this project, execute the following command:
