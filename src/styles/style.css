@@ -2,7 +2,7 @@
   width: 300px;
   margin: 0 auto;
   padding-top: 20px;
- }
+}
 
 .display {
   text-align: right;
@@ -21,9 +21,10 @@ input {
   border-top: 1px solid transparent;
   border-left: 1px solid transparent;
 }
-input[type="text"]{
-    text-align: right;
-    font-size: 14px;
+
+input[type="text"] {
+  text-align: right;
+  font-size: 14px;
 }
 
 .buttons {
@@ -42,28 +43,33 @@ input[type="text"]{
   cursor: pointer;
 }
 
-button.calculator-button.specific-button.specificButton{
-    width: 150px;
-    margin-top: 1px;
-    margin-right: 1px;
+button.calculator-button.specific-button.specificButton {
+  width: 150px;
+  margin-top: 1px;
+  margin-right: 1px;
 }
-button.calculator-button.dot{
-    width: 74px;
-    margin-right: 1px;
+
+button.calculator-button.dot {
+  width: 74px;
+  margin-right: 1px;
 }
-button.calculator-button.equal{
-    width: 74px;
+
+button.calculator-button.equal {
+  width: 74px;
 }
-button.calculator-button.ac-button{
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+button.calculator-button.ac-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-button.calculator-button{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 1px solid #bababa;
-    background-color: #e0e0e0;
+
+button.calculator-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #bababa;
+  background-color: #e0e0e0;
 }
-button.calculator-button.orange{
-    background-color: #f5913f;
+
+button.calculator-button.orange {
+  background-color: #f5913f;
 }
