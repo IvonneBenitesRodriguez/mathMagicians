@@ -2,7 +2,9 @@
 ***mathmagicians*** <br/>
 
 ## 📖 mathmagicians<a name="about-project"></a>
-This project is about a Math Magicians application. We have set-up the tools and environment to develop a React application.
+This project is about a Math Magicians application. We have created
+the layout of the calculator following the wireframe, we have used functional components to create the functionality.
+
 <br/>
 
 ## 🛠 Built With <a name="built-with"></a> 
@@ -27,6 +29,9 @@ This project is about a Math Magicians application. We have set-up the tools and
 - ***Understand how to use Async and Await***📍
 - ***Understand how to use arrow functions***📍
 - ***Understand React set up*** 📍
+- **Understand the correct Gitflow of a project**📍
+- **Understand and use functional components**📍
+- **Understand how to add a className to target a specific element**📍
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
