@@ -34,6 +34,7 @@ We have used **click event handlers, Props and useState** to provide the dynamic
 - **Understand the correct Gitflow of a project**📍
 - **Understand and use functional components**📍
 - **Understand how to add a className to target a specific element**📍
+- **Understand the usage of Props, State, and event handlers**📍 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
