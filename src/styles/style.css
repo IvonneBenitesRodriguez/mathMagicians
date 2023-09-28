@@ -68,6 +68,7 @@ button.calculator-button {
   padding-bottom: 10px;
   border: 1px solid #bababa;
   background-color: #e0e0e0;
+  cursor: pointer;
 }
 
 button.calculator-button.orange {
