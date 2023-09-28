@@ -3,7 +3,8 @@
 
 ## 📖 mathmagicians<a name="about-project"></a>
 This project is about a Math Magicians application. We have created
-the layout of the calculator following the wireframe, we have used functional components to create the functionality.
+the **logic of the calculator**⭐️ according to 2 files named operate.js and calculate.js, we have installed a js library named **big.js**.<br/>
+We have used **click event handlers, Props and useState** to provide the dynamics to our buttons and **perform math operations** in our functional components.
 
 <br/>
 
@@ -16,10 +17,11 @@ the layout of the calculator following the wireframe, we have used functional co
 <ul>
 <li><a href="https://react.dev/">React</a></li>
 <li><a href="https://github.com/microverseinc/linters-config/tree/master/react-redux">Linters for React & Redux</a></li>
+<li><a href="https://www.npmjs.com/package/big.js?activeTab=readme">big.js</a></li>
 </ul><br/>
 </details>
 
-## Key Features <br/>
+## Key Features 🌸<br/>
 - ***Set up files and dependencies*** to configure Linters for React📍
 - ***Create a featured branch*** to store all the changes before doing the merge to main branch 📍
 - ***Create a .gitignore file*** to store hidden files 📍
@@ -57,7 +59,7 @@ If you have installed it, it will output the version of node.
 5) Copy .stylelintrc.json to the root directory of your project.
    
 6) Add a .babelrc file
-
+   
 ## Setup
 
 Clone this repository to your desired folder:
@@ -95,6 +97,11 @@ d) To create a react app :
 
 ```
     npx create-react-app my-app
+```
+e) For using the big.js math library:
+
+```
+    npm install big.js
 ```
 
 ## Usage
@@ -135,7 +142,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <br/>
  - [] - I will connect an Api.
- - [] - I will give functionality to the refresh button.
+ - [] - I will add texts and backgrounds to my site.
 
 ## 🤝 Contributing <a name="contributing"></a> 
 
