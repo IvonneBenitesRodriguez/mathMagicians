@@ -74,3 +74,7 @@ button.calculator-button {
 button.calculator-button.orange {
   background-color: #f5913f;
 }
+.display-quotes{
+  text-align: center;
+  display: block;
+}
