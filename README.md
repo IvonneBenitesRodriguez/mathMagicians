@@ -2,10 +2,8 @@
 ***mathmagicians*** <br/>
 
 ## 📖 mathmagicians<a name="about-project"></a>
-This project is about a Math Magicians application. We have created
-the **logic of the calculator**⭐️ according to 2 files named operate.js and calculate.js, we have installed a js library named **big.js**.<br/>
-We have used **click event handlers, Props and useState** to provide the dynamics to our buttons and **perform math operations** in our functional components.
-
+This project is about a Math Magicians application. We have fetched data from an external api named **Api Ninja**⭐️.<br/>This API has several quotes which will appear next to our calculator app.
+We have created also a loading state, and an error state. 
 <br/>
 
 ## 🛠 Built With <a name="built-with"></a> 
@@ -18,6 +16,7 @@ We have used **click event handlers, Props and useState** to provide the dynamic
 <li><a href="https://react.dev/">React</a></li>
 <li><a href="https://github.com/microverseinc/linters-config/tree/master/react-redux">Linters for React & Redux</a></li>
 <li><a href="https://www.npmjs.com/package/big.js?activeTab=readme">big.js</a></li>
+<li><a href="https://api-ninjas.com/api/quotes">Api Ninjas</a></li>
 </ul><br/>
 </details>
 
@@ -34,7 +33,10 @@ We have used **click event handlers, Props and useState** to provide the dynamic
 - **Understand the correct Gitflow of a project**📍
 - **Understand and use functional components**📍
 - **Understand how to add a className to target a specific element**📍
-- **Understand the usage of Props, State, and event handlers**📍 
+- **Understand the usage of Props, State, and event handlers**📍
+- **Understand how to fetch data from an Api**📍
+- **Understand how to use useState and useEffect methods**📍
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -142,7 +144,6 @@ You can deploy this project using:
  
 
 ## 🔭 Future Features <br/>
- - [] - I will connect an Api.
  - [] - I will add texts and backgrounds to my site.
 
 ## 🤝 Contributing <a name="contributing"></a> 
