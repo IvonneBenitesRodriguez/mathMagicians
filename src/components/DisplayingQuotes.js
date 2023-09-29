@@ -6,7 +6,7 @@ function DisplayQuotes() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('https://api.api-ninjas.com/v1/quotes?category=medical',
+    fetch('https://api.api-ninjas.com/v1/quotes?category=dreams',
       {
         headers: { 'X-Api-Key': 'vkwnFBG8qqMMKrgc74EHuQ==5Fewj66r2fKW1KKj' },
       })
