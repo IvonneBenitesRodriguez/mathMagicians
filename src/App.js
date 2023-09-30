@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import CalculatorButton from './components/Calculator';
 import calculate from './logic/calculate';
+import DisplayQuotes from './components/DisplayingQuotes';
 
 function App() {
   const [calculatorState, setCalculatorState] = useState({
@@ -47,7 +48,11 @@ function App() {
         <CalculatorButton className="dot" value="." onClick={() => handleButtonClick('.')} />
         <CalculatorButton className="equal orange" value="=" onClick={() => handleButtonClick('=')} />
       </div>
+
+      <DisplayQuotes />
+
     </div>
+
   );
 }
 

@@ -1,11 +1,29 @@
+# 📗 Table of Contents
 
-***mathmagicians*** <br/>
+- [📗 Table of Contents](#-table-of-contents)
+  - [📖 mathmagicians](#-mathmagicians)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+  - [Key Features 🌸](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install ](#install-)
+  - [Usage](#usage)
+  - [Run tests ](#run-tests-)
+  - [Deployment ](#deployment-)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support](#️-show-your-support)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
+
+<!-- Project Description -->
 
 ## 📖 mathmagicians<a name="about-project"></a>
-This project is about a Math Magicians application. We have created
-the **logic of the calculator**⭐️ according to 2 files named operate.js and calculate.js, we have installed a js library named **big.js**.<br/>
-We have used **click event handlers, Props and useState** to provide the dynamics to our buttons and **perform math operations** in our functional components.
-
+This project is about a Math Magicians application. We have fetched data from an external api named **Api Ninja**⭐️.<br/>This API has several quotes which will appear next to our calculator app.
+We have created also a loading state, and an error state. 
 <br/>
 
 ## 🛠 Built With <a name="built-with"></a> 
@@ -18,10 +36,12 @@ We have used **click event handlers, Props and useState** to provide the dynamic
 <li><a href="https://react.dev/">React</a></li>
 <li><a href="https://github.com/microverseinc/linters-config/tree/master/react-redux">Linters for React & Redux</a></li>
 <li><a href="https://www.npmjs.com/package/big.js?activeTab=readme">big.js</a></li>
+<li><a href="https://api-ninjas.com/api/quotes">Api Ninjas</a></li>
 </ul><br/>
 </details>
 
-## Key Features 🌸<br/>
+<!-- Feature -->
+## Key Features 🌸<a name="key-features"></a><br/> 
 - ***Set up files and dependencies*** to configure Linters for React📍
 - ***Create a featured branch*** to store all the changes before doing the merge to main branch 📍
 - ***Create a .gitignore file*** to store hidden files 📍
@@ -34,8 +54,13 @@ We have used **click event handlers, Props and useState** to provide the dynamic
 - **Understand the correct Gitflow of a project**📍
 - **Understand and use functional components**📍
 - **Understand how to add a className to target a specific element**📍
-- **Understand the usage of Props, State, and event handlers**📍 
+- **Understand the usage of Props, State, and event handlers**📍
+- **Understand how to fetch data from an Api**📍
+- **Understand how to use useState and useEffect methods**📍
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!--Getting Started-->
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -133,6 +158,9 @@ You can deploy this project using:
 - Github pages
 - Netlify
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!--Authors-->
 ## 👥 Authors <a name="authors"></a>
 👩🏽‍💻🌸 **Author**
 
@@ -140,10 +168,14 @@ You can deploy this project using:
 - Twitter: @IvonneBenitesR
 - LinkedIn: LinkedIn
  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!--Future Features-->
 
 ## 🔭 Future Features <br/>
- - [] - I will connect an Api.
  - [] - I will add texts and backgrounds to my site.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a> 
 
@@ -151,15 +183,29 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!--Support-->
+
 ## ⭐️ Show your support 
 If you like this project, and consider this information useful to you, you can give me a ⭐️ so I can be highly motivated by your support.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!--Acknowledgements-->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 I would like to thank Microverse for giving me the opportunity to make real my dreams.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!--License-->
+
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
