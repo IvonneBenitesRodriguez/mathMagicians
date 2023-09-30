@@ -20,7 +20,6 @@
   - [📝 License ](#-license-)
 
 <!-- Project Description -->
-***mathmagicians*** <br/>
 
 ## 📖 mathmagicians<a name="about-project"></a>
 This project is about a Math Magicians application. We have fetched data from an external api named **Api Ninja**⭐️.<br/>This API has several quotes which will appear next to our calculator app.
