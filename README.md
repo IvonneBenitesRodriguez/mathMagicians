@@ -1,4 +1,25 @@
+# 📗 Table of Contents
 
+- [📗 Table of Contents](#-table-of-contents)
+  - [📖 mathmagicians](#-mathmagicians)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+  - [Key Features 🌸](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install ](#install-)
+  - [Usage](#usage)
+  - [Run tests ](#run-tests-)
+  - [Deployment ](#deployment-)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support](#️-show-your-support)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
+
+<!-- Project Description -->
 ***mathmagicians*** <br/>
 
 ## 📖 mathmagicians<a name="about-project"></a>
@@ -20,7 +41,8 @@ We have created also a loading state, and an error state.
 </ul><br/>
 </details>
 
-## Key Features 🌸<br/>
+<!-- Feature -->
+## Key Features 🌸<a name="key-features"></a><br/> 
 - ***Set up files and dependencies*** to configure Linters for React📍
 - ***Create a featured branch*** to store all the changes before doing the merge to main branch 📍
 - ***Create a .gitignore file*** to store hidden files 📍
@@ -37,7 +59,9 @@ We have created also a loading state, and an error state.
 - **Understand how to fetch data from an Api**📍
 - **Understand how to use useState and useEffect methods**📍
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!--Getting Started-->
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -135,6 +159,9 @@ You can deploy this project using:
 - Github pages
 - Netlify
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!--Authors-->
 ## 👥 Authors <a name="authors"></a>
 👩🏽‍💻🌸 **Author**
 
@@ -142,9 +169,14 @@ You can deploy this project using:
 - Twitter: @IvonneBenitesR
 - LinkedIn: LinkedIn
  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!--Future Features-->
 
 ## 🔭 Future Features <br/>
  - [] - I will add texts and backgrounds to my site.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a> 
 
@@ -152,15 +184,29 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!--Support-->
+
 ## ⭐️ Show your support 
 If you like this project, and consider this information useful to you, you can give me a ⭐️ so I can be highly motivated by your support.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!--Acknowledgements-->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 I would like to thank Microverse for giving me the opportunity to make real my dreams.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!--License-->
+
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
