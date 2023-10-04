@@ -22,8 +22,11 @@
 <!-- Project Description -->
 
 ## 📖 mathmagicians<a name="about-project"></a>
-This project is about a Math Magicians application. We have fetched data from an external api named **Api Ninja**⭐️.<br/>This API has several quotes which will appear next to our calculator app.
-We have created also a loading state, and an error state. 
+This project is about a Math Magicians application.<br/> 
+This time I have created a full-website 🌸. 
+It is a SPA which contains a Home, Calculator and a Quote page.<br/>
+We have added its styles and a navigation bar.
+Each page has its own route.
 <br/>
 
 ## 🛠 Built With <a name="built-with"></a> 
@@ -37,6 +40,7 @@ We have created also a loading state, and an error state.
 <li><a href="https://github.com/microverseinc/linters-config/tree/master/react-redux">Linters for React & Redux</a></li>
 <li><a href="https://www.npmjs.com/package/big.js?activeTab=readme">big.js</a></li>
 <li><a href="https://api-ninjas.com/api/quotes">Api Ninjas</a></li>
+<li><a href="https://reactrouter.com/en/main">React Router Dom</a></li>
 </ul><br/>
 </details>
 
@@ -57,6 +61,8 @@ We have created also a loading state, and an error state.
 - **Understand the usage of Props, State, and event handlers**📍
 - **Understand how to fetch data from an Api**📍
 - **Understand how to use useState and useEffect methods**📍
+- **Understand the usage of React-Router-DOM**📍
+- **Understand the usage of styles in a react-app**📍
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,6 +134,10 @@ e) For using the big.js math library:
 
 ```
     npm install big.js
+```
+f) For using react-router-dom:
+```
+  npm install react-router-dom
 ```
 
 ## Usage
