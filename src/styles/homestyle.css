@@ -1,0 +1,16 @@
+h2 {
+  margin-left: 2.5%;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+div {
+  width: 76%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+p {
+  font-size: 18px;
+  line-height: 30px;
+}
