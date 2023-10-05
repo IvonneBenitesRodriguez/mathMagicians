@@ -1,3 +1,40 @@
 body {
-  background-color: white;
+  background-color: #42b883;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+}
+
+nav {
+  width: 8%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  margin-right: 1%;
+  gap: 4px;
+}
+
+a.nav-active {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ff7e67;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.title-content {
+  padding-left: 18px;
+  padding-right: 18px;
+  width: 100%;
 }

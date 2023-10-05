@@ -14,7 +14,7 @@ input {
   align-items: center;
   justify-content: flex-end;
   font-size: 40px;
-  width: 98%;
+  width: 128%;
   height: 35px;
   background-color: #858693;
   color: #fff;
@@ -81,6 +81,22 @@ button.calculator-button.orange {
 }
 
 .display-quotes p {
-  color: gray;
+  color: orangered;
   line-height: 1.5;
+}
+
+div.buttonsModified {
+  width: 100%;
+  margin-left: 2.5%;
+}
+
+div.content {
+  display: flex;
+  width: 100%;
+  gap: 200px;
+  padding-left: 10%;
+}
+
+h1 {
+  font-size: 50px;
 }

@@ -1,58 +1,34 @@
-import React, { useState } from 'react';
+import React from 'react';
+import {
+  BrowserRouter, NavLink, Routes, Route,
+} from 'react-router-dom';
 import './App.css';
-import CalculatorButton from './components/Calculator';
-import calculate from './logic/calculate';
+import './styles/style.css';
+import './styles/homestyle.css';
+import Home from './pages/Home';
+import CalculatorDisplay from './pages/CalculatorDisplay';
 import DisplayQuotes from './components/DisplayingQuotes';
 
 function App() {
-  const [calculatorState, setCalculatorState] = useState({
-    total: null,
-    next: null,
-    operation: null,
-  });
-
-  const handleButtonClick = (buttonValue) => {
-    const newState = calculate(calculatorState, buttonValue);
-    setCalculatorState(newState);
-  };
-
+  const activeClassName = 'nav-active';
   return (
-    <div className="calculator">
-      <div className="display">
-        <input
-          type="text"
-          readOnly
-          value={calculatorState.next || calculatorState.total || '0'}
-        />
-      </div>
-      <div className="buttons">
-        <CalculatorButton className="ac-button" value="AC" onClick={() => handleButtonClick('AC')} />
-        <CalculatorButton value="+/-" onClick={() => handleButtonClick('+/-')} />
-        <CalculatorButton value="%" onClick={() => handleButtonClick('%')} />
-        <CalculatorButton className="orange" value="÷" onClick={() => handleButtonClick('÷')} />
-        <CalculatorButton value="7" onClick={() => handleButtonClick('7')} />
-        <CalculatorButton value="8" onClick={() => handleButtonClick('8')} />
-        <CalculatorButton value="9" onClick={() => handleButtonClick('9')} />
-        <CalculatorButton className="orange" value="x" onClick={() => handleButtonClick('x')} />
-        <CalculatorButton value="4" onClick={() => handleButtonClick('4')} />
-        <CalculatorButton value="5" onClick={() => handleButtonClick('5')} />
-        <CalculatorButton value="6" onClick={() => handleButtonClick('6')} />
-        <CalculatorButton className="orange" value="-" onClick={() => handleButtonClick('-')} />
-        <CalculatorButton value="1" onClick={() => handleButtonClick('1')} />
-        <CalculatorButton value="2" onClick={() => handleButtonClick('2')} />
-        <CalculatorButton value="3" onClick={() => handleButtonClick('3')} />
-        <CalculatorButton className="orange" value="+" onClick={() => handleButtonClick('+')} />
-      </div>
-      <div className="buttonsModified">
-        <CalculatorButton value="0" className="specificButton" isSpecificButton onClick={() => handleButtonClick('0')} />
-        <CalculatorButton className="dot" value="." onClick={() => handleButtonClick('.')} />
-        <CalculatorButton className="equal orange" value="=" onClick={() => handleButtonClick('=')} />
-      </div>
-
-      <DisplayQuotes />
-
-    </div>
-
+    <BrowserRouter>
+      <header>
+        <h1>Math Magicians</h1>
+        <nav>
+          <NavLink to="home" className={({ isActive }) => (isActive ? activeClassName : undefined)}> Home </NavLink>
+          <li>| </li>
+          <NavLink to="calculatordisplay" className={({ isActive }) => (isActive ? activeClassName : undefined)}> Calculator </NavLink>
+          <li>| </li>
+          <NavLink to="displayquote" className={({ isActive }) => (isActive ? activeClassName : undefined)}>Quote</NavLink>
+        </nav>
+      </header>
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/calculatordisplay" element={<CalculatorDisplay />} />
+        <Route path="/displayquote" element={<DisplayQuotes />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

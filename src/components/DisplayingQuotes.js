@@ -43,7 +43,7 @@ function DisplayQuotes() {
 
   return (
     <div className="display-quotes">
-      <h2>Random Quote:</h2>
+      <h2>This is your days quote:</h2>
       <p>{quote}</p>
     </div>
   );
