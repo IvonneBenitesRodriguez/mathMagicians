@@ -23,9 +23,9 @@
 
 ## 📖 mathmagicians<a name="about-project"></a>
 This project is about a Math Magicians application.<br/> 
-<!-- This time we have created test for 2 js files calculate and operate.
-Also we have created testings for the other react components.  -->
-<!-- It is a SPA which contains a Home, Calculator and a Quote page.<br/> -->
+This time we have created test for 2 js files calculate and operate.
+Also we have created testings for the other react components.
+It is a SPA which contains a Home, Calculator and a Quote page.<br/> 
 <br/>
 
 ## 🛠 Built With <a name="built-with"></a> 
@@ -40,7 +40,7 @@ Also we have created testings for the other react components.  -->
 <li><a href="https://www.npmjs.com/package/big.js?activeTab=readme">big.js</a></li>
 <li><a href="https://api-ninjas.com/api/quotes">Api Ninjas</a></li>
 <li><a href="https://reactrouter.com/en/main">React Router Dom</a></li>
-<!-- <li><a href="https://jestjs.io/">Jest</a></li> -->
+<li><a href="https://jestjs.io/">Jest</a></li>
 </ul><br/>
 </details>
 
