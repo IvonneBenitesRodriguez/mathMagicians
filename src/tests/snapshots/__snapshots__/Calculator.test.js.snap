@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render CalculatorButton with custom props 1`] = `
+<div>
+  <button
+    class="calculator-button specific-button"
+    type="button"
+  >
+    1
+  </button>
+</div>
+`;
+
+exports[`Render CalculatorButton with default props 1`] = `
+<div>
+  <button
+    class="calculator-button "
+    type="button"
+  />
+</div>
+`;

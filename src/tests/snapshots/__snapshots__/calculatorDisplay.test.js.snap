@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalculatorDisplay component matches snapshot 1`] = `
+<div>
+  <div
+    class="content"
+  >
+    <h2>
+      Lets do some math !
+    </h2>
+    <div
+      class="calculator"
+    >
+      <div
+        class="display"
+      >
+        <input
+          readonly=""
+          type="text"
+          value="0"
+        />
+      </div>
+      <div
+        class="buttons"
+      >
+        <button
+          class="calculator-button ac-button"
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          class="calculator-button "
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          class="calculator-button "
+          type="button"
+        >
+          %
+        </button>
+        <button
+          class="calculator-button orange"
+          type="button"
+        >
+          ÷
+        </button>
+        <button
+          class="calculator-button "
+          type="button"
+        >
+          7
+        </button>
+        <button
+          class="calculator-button "
+          type="button"
+        >
+          8
+        </button>
+        <button
+          class="calculator-button "
+          type="button"
+        >
+          9
+        </button>
+        <button
+          class="calculator-button orange"
+          type="button"
+        >
+          x
+        </button>
+        <button
+          class="calculator-button "
+          type="button"
+        >
+          4
+        </button>
+        <button
+          class="calculator-button "
+          type="button"
+        >
+          5
+        </button>
+        <button
+          class="calculator-button "
+          type="button"
+        >
+          6
+        </button>
+        <button
+          class="calculator-button orange"
+          type="button"
+        >
+          -
+        </button>
+        <button
+          class="calculator-button "
+          type="button"
+        >
+          1
+        </button>
+        <button
+          class="calculator-button "
+          type="button"
+        >
+          2
+        </button>
+        <button
+          class="calculator-button "
+          type="button"
+        >
+          3
+        </button>
+        <button
+          class="calculator-button orange"
+          type="button"
+        >
+          +
+        </button>
+      </div>
+      <div
+        class="buttonsModified"
+      >
+        <button
+          class="calculator-button specific-button specificButton"
+          type="button"
+        >
+          0
+        </button>
+        <button
+          class="calculator-button dot"
+          type="button"
+        >
+          .
+        </button>
+        <button
+          class="calculator-button equal orange"
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
