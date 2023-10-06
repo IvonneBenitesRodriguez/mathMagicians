@@ -23,10 +23,9 @@
 
 ## 📖 mathmagicians<a name="about-project"></a>
 This project is about a Math Magicians application.<br/> 
-This time I have created a full-website 🌸. 
-It is a SPA which contains a Home, Calculator and a Quote page.<br/>
-We have added its styles and a navigation bar.
-Each page has its own route.
+This time we have created test for 2 js files calculate and operate.
+Also we have created testings for the other react components.
+It is a SPA which contains a Home, Calculator and a Quote page.<br/> 
 <br/>
 
 ## 🛠 Built With <a name="built-with"></a> 
@@ -41,6 +40,7 @@ Each page has its own route.
 <li><a href="https://www.npmjs.com/package/big.js?activeTab=readme">big.js</a></li>
 <li><a href="https://api-ninjas.com/api/quotes">Api Ninjas</a></li>
 <li><a href="https://reactrouter.com/en/main">React Router Dom</a></li>
+<li><a href="https://jestjs.io/">Jest</a></li>
 </ul><br/>
 </details>
 
@@ -63,6 +63,7 @@ Each page has its own route.
 - **Understand how to use useState and useEffect methods**📍
 - **Understand the usage of React-Router-DOM**📍
 - **Understand the usage of styles in a react-app**📍
+- **Understand how to create tests for React components**📍
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,6 +160,7 @@ To run tests, run the following command:
    npx stylelint "**/*.{css,scss}"
     npx eslint "**/*.{js,jsx}"
     npm start
+    npm run test
 ```
 
 ## Deployment <br/>
